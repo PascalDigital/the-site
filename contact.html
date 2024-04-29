@@ -1,0 +1,86 @@
+
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Contact Us - Effortless Beauty</title>
+  <link rel="stylesheet" href="styles.css">
+  <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.15.4/css/all.min.css">
+  <style>
+    .contact-icons {
+      text-align: center;
+      margin-bottom: 20px;
+    }
+    .contact-icons a {
+      margin: 0 10px;
+      color: #4d3319; /* Dark Brown */
+    }
+    .contact-form {
+      margin-top: 20px;
+    }
+    .contact-form label {
+      display: block;
+      margin-bottom: 5px;
+    }
+    .contact-form input[type="text"],
+    .contact-form input[type="email"],
+    .contact-form textarea {
+      width: 100%;
+      padding: 10px;
+      margin-bottom: 10px;
+      border: 1px solid #ccc;
+      border-radius: 5px;
+      box-sizing: border-box;
+    }
+    .contact-form textarea {
+      height: 150px;
+    }
+    .contact-form input[type="submit"] {
+      background-color: #dab3a4; /* Pastel Brown */
+      color: #4d3319; /* Dark Brown */
+      border: none;
+      padding: 10px 20px;
+      cursor: pointer;
+      border-radius: 5px;
+    }
+    .contact-form input[type="submit"]:hover {
+      background-color: #ffd700; /* Golden */
+    }
+  </style>
+</head>
+<body>
+  <header>
+    <h1>Welcome to Effortless Beauty</h1>
+  </header>
+  <nav>
+    <a href="home.html">Home</a>
+    <a href="Product.html">Products</a>
+    <a href="contact.html">Contact Us</a>
+  </nav>
+  <div class="container">
+    <div class="page-content">
+      <h2>Contact Us</h2>
+      <div class="contact-icons">
+        <a href="#"><i class="fab fa-facebook"></i></a>
+        <a href="tel:+123456789"><i class="fas fa-phone"></i></a>
+        <a href="mailto:effortlessbeauty&gmail.com"><i class="far fa-envelope"></i></a>
+      </div>
+      <div class="contact-form">
+        <form action="#" method="post">
+          <label for="name">Your Name:</label>
+          <input type="text" id="name" name="name" placeholder="Your Name" required>
+          <label for="email">Your Email:</label>
+          <input type="email" id="email" name="email" placeholder="Your Email" required>
+          <label for="message">Your Message:</label>
+          <textarea id="message" name="message" placeholder="Write your message here..." required></textarea>
+          <input type="submit" value="Send Message">
+        </form>
+      </div>
+    </div>
+  </div>
+  <footer>
+    <p>Copyright © 2024 EffortlessBeauty.com</p>
+  </footer>
+</body>
+</html>
